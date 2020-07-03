@@ -28,6 +28,7 @@ public class DetectableObject
         } 
     }
     public UnityEvent methods;
+    [NonSerialized]
     public float distance;
     [NonSerialized]
     public bool isDetected = false;

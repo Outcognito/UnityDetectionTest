@@ -242,7 +242,6 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    distance: 0
   - Instance: {fileID: 731513273}
     methods:
       m_PersistentCalls:
@@ -258,7 +257,6 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    distance: 0
   DetectionZones:
   - radius: 5.49
     methods:
@@ -275,13 +273,13 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    FOVDependable: 1
+    FOVDependable: 0
     IgnoreOthers: 1
   - radius: 9.75
     methods:
       m_PersistentCalls:
         m_Calls: []
-    FOVDependable: 0
+    FOVDependable: 1
     IgnoreOthers: 0
   FOVAngle: 85
 --- !u!114 &80588533
